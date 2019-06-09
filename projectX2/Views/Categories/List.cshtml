@@ -1,0 +1,54 @@
+﻿@using Microsoft.AspNetCore.Http
+@inject Microsoft.AspNetCore.Http.IHttpContextAccessor HttpContextAccessor
+<section class="content-header">
+    <h1>
+        Categories
+
+    </h1>
+    <ol class="breadcrumb">
+        <li><a href="/"><i class="fa fa-dashboard"></i> Home</a></li>
+        <li class="active">Categories</li>
+    </ol>
+</section>
+<!-- Main content -->
+<section class="content">
+    <div class="row">
+        <div class="col-xs-12">
+            <div class="box">
+                <div class="box-header">
+                    <h3 class="box-title">List Categories</h3>
+                </div>
+                <!-- /.box-header -->
+                <div class="box-body">
+
+                    <div id="tree"></div>
+
+                </div>
+                <!-- /.box-body -->
+            </div>
+            <!-- /.box -->
+        </div>
+        <!-- /.col -->
+    </div>
+    <!-- /.row -->
+</section>
+
+<!-- TreeView -->
+<script src="~/bower_components/bootstrap-treeview/dist/bootstrap-treeview.min.js"></script>
+
+
+<!-- page script -->
+<script>
+    $(function () {
+        $('#tree').treeview({
+            data:   @Html.Raw(HttpContextAccessor.HttpContext.Session.GetString("data2")),        // data is not optional
+            levels: 5,
+            backColor: 'transparent',
+            enableLinks:  true
+
+        });
+    });
+
+
+
+</script>

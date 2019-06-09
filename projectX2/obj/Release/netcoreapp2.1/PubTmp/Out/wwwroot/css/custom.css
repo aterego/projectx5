@@ -1,0 +1,14 @@
+﻿.for-select
+{
+    margin-right:15px
+}
+
+@media only screen and (max-width: 600px) {
+    select.form-control {
+        margin-left: 15px
+    }
+}
+
+.field-validation-error {
+    color: red;
+}
