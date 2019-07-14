@@ -111,6 +111,7 @@ namespace BLL.Repositories
             return await _context.Categories.Where(s => s.ParentId == id).ToListAsync();
         }
 
+        /*
         /// <summary>
         /// Gets prices of category.
         /// </summary>
@@ -118,6 +119,16 @@ namespace BLL.Repositories
         public async Task<IEnumerable<CategoriesPrices>> GetCategoryPricesAsync(int id)
         {
             return await _context.CategoriesPrices.Where(cp => cp.CategoryId == id).ToListAsync();
+        }
+        */
+
+        /// <summary>
+        /// Gets prices of category.
+        /// </summary>
+        /// <param name="id">Current category ID
+        public async Task<CategoriesPrices> GetCategoryPricesAsync(int id)
+        {
+            return await _context.CategoriesPrices.Where(cp => cp.CategoryId == id).FirstOrDefaultAsync();
         }
 
 

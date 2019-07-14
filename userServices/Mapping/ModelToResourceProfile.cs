@@ -9,12 +9,18 @@ namespace userServices.Mapping
     {
         public ModelToResourceProfile()
         {
-            CreateMap<Categories, CategoriesResource>();
+            //CreateMap<Categories, CategoriesResource>();
+            CreateMap<Categories, CategoriesResource>()
+                .ForMember(a => a.CategoriesPrices, opt => opt.MapFrom(a => a.CategoriesPrices));
             /*
             CreateMap<Product, ProductResource>()
                 .ForMember(src => src.UnitOfMeasurement,
                            opt => opt.MapFrom(src => src.UnitOfMeasurement.ToDescriptionString()));
             */
+            CreateMap<CategoriesPrices, CategoriesPricesResource>();
+
+            CreateMap<UserCategories, UserCategoriesResource>();
+
             CreateMap<Users, UsersResource>();
             CreateMap<AccessToken, AccessTokenResource>()
                 .ForMember(a => a.AccessToken, opt => opt.MapFrom(a => a.Token))

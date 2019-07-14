@@ -14,6 +14,8 @@ namespace userServices.Mapping
             //.ForMember(u => u.User.LastIp, opt => opt.Ignore()); 
             CreateMap<UserCredentialsResource, Users>();
 
+            CreateMap<UserCategoriesResource, UserCategories>();
+
         }
     }
 }

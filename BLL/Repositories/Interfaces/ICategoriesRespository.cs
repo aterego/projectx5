@@ -59,7 +59,8 @@ namespace BLL.Repositories
         /// Gets prices of category.
         /// </summary>
         /// <param name="id">Current category ID
-        Task<IEnumerable<CategoriesPrices>> GetCategoryPricesAsync(int id);
+        //Task<IEnumerable<CategoriesPrices>> GetCategoryPricesAsync(int id);
+        Task<CategoriesPrices> GetCategoryPricesAsync(int id);
         List<CategoriesDN> GetDN();
     }
 }

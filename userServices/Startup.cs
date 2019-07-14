@@ -55,6 +55,8 @@ namespace userServices
             services.AddScoped<IUsersCustomerService, UsersCustomerService>();
             services.AddScoped<IUsersProfiRepository, UsersProfiRepository>();
             services.AddScoped<IUsersProfiService, UsersProfiService>();
+            services.AddScoped<IUserCategoriesRepository, UserCategoriesRepository>();
+            services.AddScoped<IUserCategoriesService, UserCategoriesService>();
             services.AddScoped<ITokensRepository, TokensRepository>();
             services.AddScoped<ITokenHandler, userServices.Services.TokenHandler>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
