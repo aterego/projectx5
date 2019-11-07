@@ -16,3 +16,12 @@ D:\MyProjects\projectX5\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
 D:\MyProjects\projectX5\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
 D:\MyProjects\projectX5\DAL\obj\Debug\netcoreapp2.1\DAL.dll
 D:\MyProjects\projectX5\DAL\obj\Debug\netcoreapp2.1\DAL.pdb
+f:\projects\projectX5_git\projectx5\DAL\bin\Debug\netcoreapp2.1\DAL.deps.json
+f:\projects\projectX5_git\projectx5\DAL\bin\Debug\netcoreapp2.1\DAL.dll
+f:\projects\projectX5_git\projectx5\DAL\bin\Debug\netcoreapp2.1\DAL.pdb
+f:\projects\projectX5_git\projectx5\DAL\obj\Debug\netcoreapp2.1\DAL.csprojAssemblyReference.cache
+f:\projects\projectX5_git\projectx5\DAL\obj\Debug\netcoreapp2.1\DAL.csproj.CoreCompileInputs.cache
+f:\projects\projectX5_git\projectx5\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfoInputs.cache
+f:\projects\projectX5_git\projectx5\DAL\obj\Debug\netcoreapp2.1\DAL.AssemblyInfo.cs
+f:\projects\projectX5_git\projectx5\DAL\obj\Debug\netcoreapp2.1\DAL.dll
+f:\projects\projectX5_git\projectx5\DAL\obj\Debug\netcoreapp2.1\DAL.pdb

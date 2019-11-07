@@ -111,11 +111,15 @@ namespace projectX2.Controllers
                 if (childCategories.Any())
                     return false;
 
-                List<CategoriesPrices> categoriesPrices = _categoriesRepository.GetCategoryPricesAsync(id).Result.ToList();
-                foreach(var cp in categoriesPrices)
+                //List<CategoriesPrices> categoriesPrices = _categoriesRepository.GetCategoryPricesAsync(id).Result.ToList();
+                CategoriesPrices categoriesPrices = _categoriesRepository.GetCategoryPricesAsync(id).Result;
+                /*
+                foreach (var cp in categoriesPrices)
                 {
                     _categoriesRepository.Remove(cp);
                 }
+                */
+                _categoriesRepository.Remove(categoriesPrices);
 
                 Categories category = _categoriesRepository.GetCategoryAsync(id).Result;
                 _categoriesRepository.Remove(category);
@@ -166,8 +170,9 @@ namespace projectX2.Controllers
                 category.ParentId = Convert.ToInt32(Request.Form["Parents"].ToString());
 
                 await _categoriesRepository.UpdateAsync(category);
-                
-                CategoriesPrices catPrices = _categoriesRepository.GetCategoryPricesAsync(category.Id).Result.First();
+
+                //CategoriesPrices catPrices = _categoriesRepository.GetCategoryPricesAsync(category.Id).Result.First();
+                CategoriesPrices catPrices = await _categoriesRepository.GetCategoryPricesAsync(category.Id);
 
                 var min = Request.Form["PriceMin"].ToString();
                 var max = Request.Form["PriceMax"].ToString();
