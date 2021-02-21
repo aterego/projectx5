@@ -1,24 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\MyProjects\\projectX5\\userServices\\userServices.csproj": {}
+    "c:\\Projects\\projectX\\userServices\\userServices.csproj": {}
   },
   "projects": {
-    "D:\\MyProjects\\projectX5\\BLL\\BLL.csproj": {
+    "c:\\Projects\\projectX\\BLL\\BLL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\projectX5\\BLL\\BLL.csproj",
+        "projectUniqueName": "c:\\Projects\\projectX\\BLL\\BLL.csproj",
         "projectName": "BLL",
-        "projectPath": "D:\\MyProjects\\projectX5\\BLL\\BLL.csproj",
-        "packagesPath": "C:\\Users\\Talis\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\projectX5\\BLL\\obj\\",
+        "projectPath": "c:\\Projects\\projectX\\BLL\\BLL.csproj",
+        "packagesPath": "C:\\Users\\talis\\.nuget\\packages\\",
+        "outputPath": "c:\\Projects\\projectX\\BLL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Talis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -27,14 +26,14 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\MyProjects\\IotaWPF\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "D:\\MyProjects\\projectX5\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\MyProjects\\projectX5\\DAL\\DAL.csproj"
+              "c:\\Projects\\projectX\\DAL\\DAL.csproj": {
+                "projectPath": "c:\\Projects\\projectX\\DAL\\DAL.csproj"
               }
             }
           }
@@ -47,6 +46,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
@@ -68,28 +68,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyProjects\\projectX5\\DAL\\DAL.csproj": {
+    "c:\\Projects\\projectX\\DAL\\DAL.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\projectX5\\DAL\\DAL.csproj",
+        "projectUniqueName": "c:\\Projects\\projectX\\DAL\\DAL.csproj",
         "projectName": "DAL",
-        "projectPath": "D:\\MyProjects\\projectX5\\DAL\\DAL.csproj",
-        "packagesPath": "C:\\Users\\Talis\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\projectX5\\DAL\\obj\\",
+        "projectPath": "c:\\Projects\\projectX\\DAL\\DAL.csproj",
+        "packagesPath": "C:\\Users\\talis\\.nuget\\packages\\",
+        "outputPath": "c:\\Projects\\projectX\\DAL\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Talis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -98,11 +103,11 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\MyProjects\\IotaWPF\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {}
           }
         },
@@ -114,6 +119,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
@@ -127,28 +133,33 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "D:\\MyProjects\\projectX5\\userServices\\userServices.csproj": {
+    "c:\\Projects\\projectX\\userServices\\userServices.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\MyProjects\\projectX5\\userServices\\userServices.csproj",
+        "projectUniqueName": "c:\\Projects\\projectX\\userServices\\userServices.csproj",
         "projectName": "userServices",
-        "projectPath": "D:\\MyProjects\\projectX5\\userServices\\userServices.csproj",
-        "packagesPath": "C:\\Users\\Talis\\.nuget\\packages\\",
-        "outputPath": "D:\\MyProjects\\projectX5\\userServices\\obj\\",
+        "projectPath": "c:\\Projects\\projectX\\userServices\\userServices.csproj",
+        "packagesPath": "C:\\Users\\talis\\.nuget\\packages\\",
+        "outputPath": "c:\\Projects\\projectX\\userServices\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
-          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+          "C:\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Talis\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\talis\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
         ],
@@ -157,17 +168,17 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "D:\\MyProjects\\IotaWPF\\packages": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "netcoreapp2.1": {
+            "targetAlias": "netcoreapp2.1",
             "projectReferences": {
-              "D:\\MyProjects\\projectX5\\BLL\\BLL.csproj": {
-                "projectPath": "D:\\MyProjects\\projectX5\\BLL\\BLL.csproj"
+              "c:\\Projects\\projectX\\BLL\\BLL.csproj": {
+                "projectPath": "c:\\Projects\\projectX\\BLL\\BLL.csproj"
               },
-              "D:\\MyProjects\\projectX5\\DAL\\DAL.csproj": {
-                "projectPath": "D:\\MyProjects\\projectX5\\DAL\\DAL.csproj"
+              "c:\\Projects\\projectX\\DAL\\DAL.csproj": {
+                "projectPath": "c:\\Projects\\projectX\\DAL\\DAL.csproj"
               }
             }
           }
@@ -180,6 +191,7 @@
       },
       "frameworks": {
         "netcoreapp2.1": {
+          "targetAlias": "netcoreapp2.1",
           "dependencies": {
             "AutoMapper": {
               "target": "Package",
@@ -200,6 +212,7 @@
               "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
@@ -210,10 +223,16 @@
             }
           },
           "imports": [
-            "net461"
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
           ],
           "assetTargetFallback": true,
-          "warn": true
+          "warn": true,
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.103\\RuntimeIdentifierGraph.json"
         }
       }
     }

@@ -34,3 +34,15 @@ f:\projects\projectX5_git\projectx5\BLL\obj\Debug\netcoreapp2.1\BLL.AssemblyInfo
 f:\projects\projectX5_git\projectx5\BLL\obj\Debug\netcoreapp2.1\BLL.csproj.CopyComplete
 f:\projects\projectX5_git\projectx5\BLL\obj\Debug\netcoreapp2.1\BLL.dll
 f:\projects\projectX5_git\projectx5\BLL\obj\Debug\netcoreapp2.1\BLL.pdb
+c:\Projects\projectX\BLL\bin\Debug\netcoreapp2.1\BLL.deps.json
+c:\Projects\projectX\BLL\bin\Debug\netcoreapp2.1\BLL.dll
+c:\Projects\projectX\BLL\bin\Debug\netcoreapp2.1\BLL.pdb
+c:\Projects\projectX\BLL\bin\Debug\netcoreapp2.1\DAL.dll
+c:\Projects\projectX\BLL\bin\Debug\netcoreapp2.1\DAL.pdb
+c:\Projects\projectX\BLL\obj\Debug\netcoreapp2.1\BLL.csprojAssemblyReference.cache
+c:\Projects\projectX\BLL\obj\Debug\netcoreapp2.1\BLL.AssemblyInfoInputs.cache
+c:\Projects\projectX\BLL\obj\Debug\netcoreapp2.1\BLL.AssemblyInfo.cs
+c:\Projects\projectX\BLL\obj\Debug\netcoreapp2.1\BLL.csproj.CoreCompileInputs.cache
+c:\Projects\projectX\BLL\obj\Debug\netcoreapp2.1\BLL.csproj.CopyComplete
+c:\Projects\projectX\BLL\obj\Debug\netcoreapp2.1\BLL.dll
+c:\Projects\projectX\BLL\obj\Debug\netcoreapp2.1\BLL.pdb
